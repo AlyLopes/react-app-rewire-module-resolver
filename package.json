@@ -1,0 +1,29 @@
+{
+  "name": "react-app-rewire-module-resolver",
+  "version": "1.0.0",
+  "description":
+    "Adds the babel-plugin-module-resolver to your create-react-app via react-app-rewired",
+  "main": "index.js",
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/LopesAlysson/react-app-rewire-module-resolver.git"
+  },
+  "keywords": ["react-app-rewire", "babel-plugin"],
+  "author": "Alysson Lopes <alyssondlopes@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/LopesAlysson/react-app-rewire-module-resolver/issues"
+  },
+  "homepage":
+    "https://github.com/LopesAlysson/react-app-rewire-module-resolver#readme",
+  "dependencies": {
+    "babel-core": "^6.26.2"
+  },
+  "peerDependencies": {
+    "babel-plugin-module-resolver": "^3.1.1",
+    "react-app-rewired": "^1.5.2"
+  }
+}
